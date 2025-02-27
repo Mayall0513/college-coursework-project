@@ -1,0 +1,81 @@
+TitleLabel {
+	TextColor = rgba(255, 255, 255, 255);
+}
+
+Label {
+	TextColor = rgba(0, 0, 0, 255);
+}
+
+BackgroundPanel {
+	BackgroundColor = rgba(132, 132, 132, 255);
+}
+
+Button {
+	BackgroundColor = rgba(154, 154, 154, 255);
+	BackgroundColorDown = rgba(232, 232, 232, 255);
+	BackgroundColorHover = rgba(198, 198, 198, 255);
+	TextColor = rgba(0, 0, 0, 255);
+	TextColorDown = rgba(0, 0, 0, 255);
+	TextColorHover = rgba(0, 0, 0, 255);
+	Borders = (1, 1, 1, 1);
+	BorderColor = rgba(44, 44, 44, 255);
+	OpacityDisabled = 0.2;
+}
+
+EditBox {
+	BackgroundColor = rgba(154, 154, 154, 255);
+	TextColor = rgba(0, 0, 0, 255);
+	CaretColor = rgba(0, 0, 0, 255);
+	Borders = (1, 1, 1, 1);
+	BorderColor = rgba(44, 44, 44, 255);
+	OpacityDisabled = 0.2;
+}
+
+InvisibleEditBox {
+	BackgroundColor = rgba(0, 0, 0, 0);
+	TextColor = rgba(0, 0, 0, 255);
+	CaretColor = rgba(0, 0, 0, 255);
+	Borders = (0, 0, 0, 1);
+	OpacityDisabled = 0.2;
+}
+
+ListBox {
+	BackgroundColor = rgba(154, 154, 154, 255);
+	TextColor = rgba(0, 0, 0, 255);
+	SelectedTextColor = rgba(0, 0, 0, 255);
+	TextColorHover = rgba(0, 0, 0, 255);
+	SelectedBackgroundColor = rgba(198, 198, 198, 255);
+}
+
+Slider {
+	TrackColor = rgba(154, 154, 154, 255);
+	ThumbColor = rgba(132, 132, 132, 255);
+	Borders = (1, 1, 1, 1);
+	BorderColor = rgba(44, 44, 44, 255);
+}
+
+ComboBox {
+	BackgroundColor = rgba(154, 154, 154, 255);
+	ArrowBackgroundColor = rgba(164, 164, 164, 255);
+	ArrowColor = rgba(140, 140, 140, 255);
+	Borders = (1, 1, 1, 1);
+	BorderColor = rgba(44, 44, 44, 255);
+	OpacityDisabled = 0.2;
+}
+
+HUDPanel {
+	BackgroundColor = rgba(0, 0, 0, 40);
+}
+
+HUDLabel {
+	TextColor = rgba(255, 255, 0, 255);
+}
+
+CheckBox {
+	BackgroundColor = rgba(154, 154, 154, 255);
+	TextColor = rgba(0, 0, 0, 255);
+	TextColorHover = rgba(0, 0, 0, 255);
+	TextColorChecked = rgba(0, 0, 0, 255);
+	TextColorCheckedHover = rgba(0, 0, 0, 255);
+	Borders = (1, 1, 1, 1);
+}
